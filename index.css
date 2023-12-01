@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 75%;
+    height: auto
+}
+
+.goldenDog {
+    border-radius: 50%;
+    border: blue solid 3px;
+    margin: 25px;
+    
+}
+
+p2 {
+    text-align: center justify;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+h1, h3, h4 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+a {
+    font-size: x-large;
+}
+
+li {
+    color:brown;
+    padding-left: 2px;
+    padding-right: 4px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+
+
+.item1 {
+    grid-area: header;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+.item2 { grid-area: left1; }
+.item3 { 
+    grid-area: main1;
+}
+.item4 { grid-area: right1; }
+.item5 { grid-area: left2;}
+.item6 { grid-area: main2;}
+.item7 { grid-area: right2;}
+.item8 {grid-area: footer;}
+ 
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'left1 main1 right1'
+    'left2 main2 right2'
+    'footer footer footer';
+  gap: 10px;
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container {
+  background-color: grey (255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px;
+  border: black solid
+}
